@@ -37,7 +37,7 @@
         <poi.version>4.1.2</poi.version>
         <oshi.version>6.6.5</oshi.version>
         <velocity.version>2.3</velocity.version>
-        <oracle.version>10.2.0.4.0</oracle.version>
+        <oracle.version>11.2.0.3</oracle.version>
     </properties>
 
     <dependencies>
@@ -95,7 +95,7 @@
         <!-- oracle驱动-->
         <dependency>
             <groupId>com.oracle</groupId>
-            <artifactId>ojdbc14</artifactId>
+            <artifactId>ojdbc6</artifactId>
             <version>${oracle.version}</version>
         </dependency>
 
